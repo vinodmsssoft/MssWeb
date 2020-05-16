@@ -1,0 +1,66 @@
+.hservices{
+    padding-top: 50px;
+}
+
+
+.services {
+    margin-top: 80px;
+
+}
+
+
+.hservices h1 {
+    background: aliceblue;
+    font-size: 30px;
+    height: 60px;
+    padding-left: 10px;
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.services h3 {
+    background: aliceblue;
+    font-size: 20px;
+    font-weight: bolder;
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 20px;
+    width: 100%;
+
+}
+
+.services span {
+     color: darkgreen;
+}
+
+.about .erp {
+    color: blue;
+}
+
+.services .ol {
+     font-size: 20px;
+     font-weight: bolder;
+     text-decoration: underline;
+}
+
+.services li {
+     font-size: 15px;
+     margin-left: 50px;
+
+}
+
+.services p {
+    font-size: medium;
+    font-weight: 600;
+    color: black;
+    padding-bottom: 50px;
+}
+
+.services span {
+    color: darkgreen;
+}
+
+.services .erp {
+    color: blue;
+}

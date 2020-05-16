@@ -1,0 +1,1392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="Django@localhost">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="4.1">
+    <root id="1"/>
+    <schema id="2" parent="1" name="DJANGO">
+      <ObjectId>124</ObjectId>
+      <IntrospectionTimestamp>2020-05-11.21:30:04</IntrospectionTimestamp>
+      <CreatedTimestamp>2020-05-09.13:25:50</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-11.12:22:53</ModifiedTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="SYSTEM">
+      <ObjectId>5</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="OUTLN">
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="DIP">
+      <ObjectId>14</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="ORACLE_OCM">
+      <ObjectId>21</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="DBSNMP">
+      <ObjectId>30</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="APPQOSSYS">
+      <ObjectId>31</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="WMSYS">
+      <ObjectId>32</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="EXFSYS">
+      <ObjectId>42</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="CTXSYS">
+      <ObjectId>43</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="XDB">
+      <ObjectId>45</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="ANONYMOUS">
+      <ObjectId>46</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="ORDSYS">
+      <ObjectId>53</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="ORDDATA">
+      <ObjectId>54</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="ORDPLUGINS">
+      <ObjectId>55</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="SI_INFORMTN_SCHEMA">
+      <ObjectId>56</ObjectId>
+    </schema>
+    <schema id="20" parent="1" name="MDSYS">
+      <ObjectId>57</ObjectId>
+    </schema>
+    <schema id="21" parent="1" name="OLAPSYS">
+      <ObjectId>61</ObjectId>
+    </schema>
+    <schema id="22" parent="1" name="MDDATA">
+      <ObjectId>65</ObjectId>
+    </schema>
+    <schema id="23" parent="1" name="SPATIAL_WFS_ADMIN_USR">
+      <ObjectId>67</ObjectId>
+    </schema>
+    <schema id="24" parent="1" name="SPATIAL_CSW_ADMIN_USR">
+      <ObjectId>70</ObjectId>
+    </schema>
+    <schema id="25" parent="1" name="SYSMAN">
+      <ObjectId>72</ObjectId>
+    </schema>
+    <schema id="26" parent="1" name="MGMT_VIEW">
+      <ObjectId>74</ObjectId>
+    </schema>
+    <schema id="27" parent="1" name="FLOWS_FILES">
+      <ObjectId>75</ObjectId>
+    </schema>
+    <schema id="28" parent="1" name="APEX_PUBLIC_USER">
+      <ObjectId>76</ObjectId>
+    </schema>
+    <schema id="29" parent="1" name="APEX_030200">
+      <ObjectId>78</ObjectId>
+    </schema>
+    <schema id="30" parent="1" name="OWBSYS">
+      <ObjectId>79</ObjectId>
+    </schema>
+    <schema id="31" parent="1" name="OWBSYS_AUDIT">
+      <ObjectId>83</ObjectId>
+    </schema>
+    <schema id="32" parent="1" name="SCOTT">
+      <ObjectId>84</ObjectId>
+    </schema>
+    <schema id="33" parent="1" name="HR">
+      <ObjectId>85</ObjectId>
+    </schema>
+    <schema id="34" parent="1" name="OE">
+      <ObjectId>86</ObjectId>
+    </schema>
+    <schema id="35" parent="1" name="IX">
+      <ObjectId>87</ObjectId>
+    </schema>
+    <schema id="36" parent="1" name="SH">
+      <ObjectId>88</ObjectId>
+    </schema>
+    <schema id="37" parent="1" name="PM">
+      <ObjectId>89</ObjectId>
+    </schema>
+    <schema id="38" parent="1" name="BI">
+      <ObjectId>90</ObjectId>
+    </schema>
+    <schema id="39" parent="1" name="MSS_SUPPORT">
+      <ObjectId>91</ObjectId>
+    </schema>
+    <schema id="40" parent="1" name="VEEYES">
+      <ObjectId>94</ObjectId>
+    </schema>
+    <schema id="41" parent="1" name="MSS_VSF">
+      <ObjectId>95</ObjectId>
+    </schema>
+    <schema id="42" parent="1" name="MSS_HICON">
+      <ObjectId>96</ObjectId>
+    </schema>
+    <schema id="43" parent="1" name="MSS_STORE">
+      <ObjectId>98</ObjectId>
+    </schema>
+    <schema id="44" parent="1" name="ES_FOUNDRY">
+      <ObjectId>100</ObjectId>
+    </schema>
+    <schema id="45" parent="1" name="MSS_MMS">
+      <ObjectId>102</ObjectId>
+    </schema>
+    <schema id="46" parent="1" name="MSS_SS">
+      <ObjectId>106</ObjectId>
+    </schema>
+    <schema id="47" parent="1" name="MSS_SS_SHIMOGA">
+      <ObjectId>107</ObjectId>
+    </schema>
+    <schema id="48" parent="1" name="JSON">
+      <ObjectId>109</ObjectId>
+    </schema>
+    <schema id="49" parent="1" name="MSS_PREMA">
+      <ObjectId>110</ObjectId>
+    </schema>
+    <schema id="50" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <sequence id="51" parent="2" name="AUTH_GROUP_PERMISSIONS_SQ">
+      <ObjectId>128884</ObjectId>
+      <CreatedTimestamp>2020-05-09.13:25:54</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="52" parent="2" name="AUTH_GROUP_SQ">
+      <ObjectId>128882</ObjectId>
+      <CreatedTimestamp>2020-05-09.13:25:54</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="53" parent="2" name="AUTH_PERMISSION_SQ">
+      <ObjectId>128878</ObjectId>
+      <CreatedTimestamp>2020-05-09.13:25:54</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="54" parent="2" name="AUTH_USER_GROUPS_SQ">
+      <ObjectId>128891</ObjectId>
+      <CreatedTimestamp>2020-05-09.13:25:54</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="55" parent="2" name="AUTH_USER_SQ">
+      <ObjectId>128889</ObjectId>
+      <CreatedTimestamp>2020-05-09.13:25:54</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="56" parent="2" name="AUTH_USER_USER_PERMISSIONS_SQ">
+      <ObjectId>128896</ObjectId>
+      <CreatedTimestamp>2020-05-09.13:25:55</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:55</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="57" parent="2" name="DJANGO_ADMIN_LOG_SQ">
+      <ObjectId>128907</ObjectId>
+      <CreatedTimestamp>2020-05-09.13:25:55</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:55</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="58" parent="2" name="DJANGO_CONTENT_TYPE_SQ">
+      <ObjectId>128862</ObjectId>
+      <CreatedTimestamp>2020-05-09.13:25:54</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="59" parent="2" name="DJANGO_MIGRATIONS_SQ">
+      <ObjectId>128857</ObjectId>
+      <CreatedTimestamp>2020-05-09.13:25:50</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:50</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="60" parent="2" name="EMPLOYEE_SQ">
+      <ObjectId>128918</ObjectId>
+      <CreatedTimestamp>2020-05-09.13:25:57</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:57</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="61" parent="2" name="TESTAPP_BOOK_SQ">
+      <ObjectId>129000</ObjectId>
+      <CreatedTimestamp>2020-05-10.12:39:15</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-10.12:39:15</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="62" parent="2" name="TESTAPP_CONTACTINFO1_SQ">
+      <ObjectId>129016</ObjectId>
+      <CreatedTimestamp>2020-05-11.12:22:53</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-11.12:22:53</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="63" parent="2" name="TESTAPP_STUDENT_SQ">
+      <ObjectId>129006</ObjectId>
+      <CreatedTimestamp>2020-05-11.12:13:18</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-11.12:13:18</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="64" parent="2" name="TESTAPP_TEACHER_SQ">
+      <ObjectId>129008</ObjectId>
+      <CreatedTimestamp>2020-05-11.12:13:18</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-11.12:13:18</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <table id="65" parent="2" name="AUTH_GROUP">
+      <ObjectId>128866</ObjectId>
+      <CreatedTimestamp>2020-05-09.13:25:54</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="66" parent="2" name="AUTH_GROUP_PERMISSIONS">
+      <ObjectId>128869</ObjectId>
+      <CreatedTimestamp>2020-05-09.13:25:54</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="67" parent="2" name="AUTH_PERMISSION">
+      <ObjectId>128864</ObjectId>
+      <CreatedTimestamp>2020-05-09.13:25:54</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:55</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="68" parent="2" name="AUTH_USER">
+      <ObjectId>128871</ObjectId>
+      <CreatedTimestamp>2020-05-09.13:25:54</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:57</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="69" parent="2" name="AUTH_USER_GROUPS">
+      <ObjectId>128874</ObjectId>
+      <CreatedTimestamp>2020-05-09.13:25:54</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:55</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="70" parent="2" name="AUTH_USER_USER_PERMISSIONS">
+      <ObjectId>128876</ObjectId>
+      <CreatedTimestamp>2020-05-09.13:25:54</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:55</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="71" parent="2" name="DJANGO_ADMIN_LOG">
+      <ObjectId>128901</ObjectId>
+      <CreatedTimestamp>2020-05-09.13:25:55</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:57</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="72" parent="2" name="DJANGO_CONTENT_TYPE">
+      <ObjectId>128859</ObjectId>
+      <CreatedTimestamp>2020-05-09.13:25:54</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:55</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="73" parent="2" name="DJANGO_MIGRATIONS">
+      <ObjectId>128855</ObjectId>
+      <CreatedTimestamp>2020-05-09.13:25:50</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:50</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="74" parent="2" name="DJANGO_SESSION">
+      <ObjectId>128911</ObjectId>
+      <CreatedTimestamp>2020-05-09.13:25:57</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:57</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="75" parent="2" name="TESTAPP_BOOK">
+      <ObjectId>128998</ObjectId>
+      <CreatedTimestamp>2020-05-10.12:39:15</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-10.12:39:15</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="76" parent="2" name="TESTAPP_CONTACTINFO1">
+      <ObjectId>129010</ObjectId>
+      <CreatedTimestamp>2020-05-11.12:22:53</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-11.12:22:53</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="77" parent="2" name="TESTAPP_EMPLOYEE">
+      <ObjectId>128916</ObjectId>
+      <CreatedTimestamp>2020-05-09.13:25:57</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:58</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="78" parent="2" name="TESTAPP_STUDENT">
+      <ObjectId>129002</ObjectId>
+      <CreatedTimestamp>2020-05-11.12:13:18</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-11.12:13:18</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="79" parent="2" name="TESTAPP_STUDENT1">
+      <ObjectId>129012</ObjectId>
+      <CreatedTimestamp>2020-05-11.12:22:53</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-11.12:22:53</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="80" parent="2" name="TESTAPP_TEACHER">
+      <ObjectId>129004</ObjectId>
+      <CreatedTimestamp>2020-05-11.12:13:18</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-11.12:13:18</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="81" parent="2" name="TESTAPP_TEACHER1">
+      <ObjectId>129014</ObjectId>
+      <CreatedTimestamp>2020-05-11.12:22:53</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-11.12:22:53</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <column id="82" parent="65" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="83" parent="65" name="NAME">
+      <Position>2</Position>
+      <DataType>NVARCHAR2(80)|0</DataType>
+    </column>
+    <index id="84" parent="65" name="SYS_C0019225">
+      <ObjectId>128867</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-05-09.13:25:54</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="85" parent="65" name="SYS_C0019226">
+      <ObjectId>128868</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-05-09.13:25:54</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>NAME</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="86" parent="65" name="SYS_C0019225">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0019225</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="87" parent="65" name="SYS_C0019226">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <ColNames>NAME</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0019226</UnderlyingIndexName>
+    </key>
+    <trigger id="88" parent="65" name="AUTH_GROUP_TR">
+      <ObjectId>128883</ObjectId>
+      <CreatedTimestamp>2020-05-09.13:25:54</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+      <Condition>new.&quot;ID&quot; IS NULL</Condition>
+    </trigger>
+    <column id="89" parent="66" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="90" parent="66" name="GROUP_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="91" parent="66" name="PERMISSION_ID">
+      <Position>3</Position>
+      <DataType>NUMBER(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="92" parent="66" name="SYS_C0019230">
+      <ObjectId>128870</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-05-09.13:25:54</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="93" parent="66" name="AUTH_GROU_GROUP_ID__0CD325B0_U">
+      <ObjectId>128886</ObjectId>
+      <CreatedTimestamp>2020-05-09.13:25:54</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>GROUP_ID
+PERMISSION_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="94" parent="66" name="AUTH_GROUP_GROUP_ID_B120CBF9">
+      <ObjectId>128887</ObjectId>
+      <CreatedTimestamp>2020-05-09.13:25:54</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>GROUP_ID</ColNames>
+    </index>
+    <index id="95" parent="66" name="AUTH_GROUP_PERMISSION_84C5C92E">
+      <ObjectId>128888</ObjectId>
+      <CreatedTimestamp>2020-05-09.13:25:54</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>PERMISSION_ID</ColNames>
+    </index>
+    <key id="96" parent="66" name="SYS_C0019230">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0019230</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="97" parent="66" name="AUTH_GROU_GROUP_ID__0CD325B0_U">
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <ColNames>GROUP_ID
+PERMISSION_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>AUTH_GROU_GROUP_ID__0CD325B0_U</UnderlyingIndexName>
+    </key>
+    <foreign-key id="98" parent="66" name="AUTH_GROU_GROUP_ID_B120CBF9_F">
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <ColNames>GROUP_ID</ColNames>
+      <Deferrable>1</Deferrable>
+      <RefTableName>AUTH_GROUP</RefTableName>
+      <RefKeyName>SYS_C0019225</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="99" parent="66" name="AUTH_GROU_PERMISSIO_84C5C92E_F">
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <ColNames>PERMISSION_ID</ColNames>
+      <Deferrable>1</Deferrable>
+      <RefTableName>AUTH_PERMISSION</RefTableName>
+      <RefKeyName>SYS_C0019223</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <trigger id="100" parent="66" name="AUTH_GROUP_PERMISSIONS_TR">
+      <ObjectId>128885</ObjectId>
+      <CreatedTimestamp>2020-05-09.13:25:54</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+      <Condition>new.&quot;ID&quot; IS NULL</Condition>
+    </trigger>
+    <column id="101" parent="67" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="102" parent="67" name="NAME">
+      <Position>2</Position>
+      <DataType>NVARCHAR2(255)|0</DataType>
+    </column>
+    <column id="103" parent="67" name="CONTENT_TYPE_ID">
+      <Position>3</Position>
+      <DataType>NUMBER(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="104" parent="67" name="CODENAME">
+      <Position>4</Position>
+      <DataType>NVARCHAR2(100)|0</DataType>
+    </column>
+    <index id="105" parent="67" name="SYS_C0019223">
+      <ObjectId>128865</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-05-09.13:25:54</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="106" parent="67" name="AUTH_PERM_CONTENT_T_01AB375A_U">
+      <ObjectId>128880</ObjectId>
+      <CreatedTimestamp>2020-05-09.13:25:54</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>CONTENT_TYPE_ID
+CODENAME</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="107" parent="67" name="AUTH_PERMI_CONTENT_TY_2F476E4B">
+      <ObjectId>128881</ObjectId>
+      <CreatedTimestamp>2020-05-09.13:25:54</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>CONTENT_TYPE_ID</ColNames>
+    </index>
+    <key id="108" parent="67" name="SYS_C0019223">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0019223</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="109" parent="67" name="AUTH_PERM_CONTENT_T_01AB375A_U">
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <ColNames>CONTENT_TYPE_ID
+CODENAME</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>AUTH_PERM_CONTENT_T_01AB375A_U</UnderlyingIndexName>
+    </key>
+    <foreign-key id="110" parent="67" name="AUTH_PERM_CONTENT_T_2F476E4B_F">
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <ColNames>CONTENT_TYPE_ID</ColNames>
+      <Deferrable>1</Deferrable>
+      <RefTableName>DJANGO_CONTENT_TYPE</RefTableName>
+      <RefKeyName>SYS_C0019219</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <trigger id="111" parent="67" name="AUTH_PERMISSION_TR">
+      <ObjectId>128879</ObjectId>
+      <CreatedTimestamp>2020-05-09.13:25:54</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+      <Condition>new.&quot;ID&quot; IS NULL</Condition>
+    </trigger>
+    <column id="112" parent="68" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="113" parent="68" name="PASSWORD">
+      <Position>2</Position>
+      <DataType>NVARCHAR2(128)|0</DataType>
+    </column>
+    <column id="114" parent="68" name="LAST_LOGIN">
+      <Position>3</Position>
+      <DataType>TIMESTAMP(6)|0</DataType>
+    </column>
+    <column id="115" parent="68" name="IS_SUPERUSER">
+      <Position>4</Position>
+      <DataType>NUMBER(1)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="116" parent="68" name="USERNAME">
+      <Position>5</Position>
+      <DataType>NVARCHAR2(150)|0</DataType>
+    </column>
+    <column id="117" parent="68" name="FIRST_NAME">
+      <Position>6</Position>
+      <DataType>NVARCHAR2(30)|0</DataType>
+    </column>
+    <column id="118" parent="68" name="LAST_NAME">
+      <Position>7</Position>
+      <DataType>NVARCHAR2(30)|0</DataType>
+    </column>
+    <column id="119" parent="68" name="EMAIL">
+      <Position>8</Position>
+      <DataType>NVARCHAR2(254)|0</DataType>
+    </column>
+    <column id="120" parent="68" name="IS_STAFF">
+      <Position>9</Position>
+      <DataType>NUMBER(1)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="121" parent="68" name="IS_ACTIVE">
+      <Position>10</Position>
+      <DataType>NUMBER(1)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="122" parent="68" name="DATE_JOINED">
+      <Position>11</Position>
+      <DataType>TIMESTAMP(6)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="123" parent="68" name="SYS_C0019240">
+      <ObjectId>128872</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-05-09.13:25:54</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="124" parent="68" name="SYS_C0019241">
+      <ObjectId>128873</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-05-09.13:25:54</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>USERNAME</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="125" parent="68" name="SYS_C0019240">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0019240</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="126" parent="68" name="SYS_C0019241">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <ColNames>USERNAME</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0019241</UnderlyingIndexName>
+    </key>
+    <check id="127" parent="68" name="SYS_C0019237">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <ColNames>IS_SUPERUSER</ColNames>
+      <Predicate>&quot;IS_SUPERUSER&quot; IN (0,1)</Predicate>
+    </check>
+    <check id="128" parent="68" name="SYS_C0019238">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <ColNames>IS_STAFF</ColNames>
+      <Predicate>&quot;IS_STAFF&quot; IN (0,1)</Predicate>
+    </check>
+    <check id="129" parent="68" name="SYS_C0019239">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <ColNames>IS_ACTIVE</ColNames>
+      <Predicate>&quot;IS_ACTIVE&quot; IN (0,1)</Predicate>
+    </check>
+    <trigger id="130" parent="68" name="AUTH_USER_TR">
+      <ObjectId>128890</ObjectId>
+      <CreatedTimestamp>2020-05-09.13:25:54</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+      <Condition>new.&quot;ID&quot; IS NULL</Condition>
+    </trigger>
+    <column id="131" parent="69" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="132" parent="69" name="USER_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="133" parent="69" name="GROUP_ID">
+      <Position>3</Position>
+      <DataType>NUMBER(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="134" parent="69" name="SYS_C0019245">
+      <ObjectId>128875</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-05-09.13:25:54</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="135" parent="69" name="AUTH_USER_USER_ID_G_94350C0C_U">
+      <ObjectId>128893</ObjectId>
+      <CreatedTimestamp>2020-05-09.13:25:55</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:55</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>USER_ID
+GROUP_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="136" parent="69" name="AUTH_USER__USER_ID_6A12ED8B">
+      <ObjectId>128894</ObjectId>
+      <CreatedTimestamp>2020-05-09.13:25:55</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:55</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>USER_ID</ColNames>
+    </index>
+    <index id="137" parent="69" name="AUTH_USER__GROUP_ID_97559544">
+      <ObjectId>128895</ObjectId>
+      <CreatedTimestamp>2020-05-09.13:25:55</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:55</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>GROUP_ID</ColNames>
+    </index>
+    <key id="138" parent="69" name="SYS_C0019245">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0019245</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="139" parent="69" name="AUTH_USER_USER_ID_G_94350C0C_U">
+      <ModifiedTimestamp>2020-05-09.13:25:55</ModifiedTimestamp>
+      <ColNames>USER_ID
+GROUP_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>AUTH_USER_USER_ID_G_94350C0C_U</UnderlyingIndexName>
+    </key>
+    <foreign-key id="140" parent="69" name="AUTH_USER_USER_ID_6A12ED8B_F">
+      <ModifiedTimestamp>2020-05-09.13:25:55</ModifiedTimestamp>
+      <ColNames>USER_ID</ColNames>
+      <Deferrable>1</Deferrable>
+      <RefTableName>AUTH_USER</RefTableName>
+      <RefKeyName>SYS_C0019240</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="141" parent="69" name="AUTH_USER_GROUP_ID_97559544_F">
+      <ModifiedTimestamp>2020-05-09.13:25:55</ModifiedTimestamp>
+      <ColNames>GROUP_ID</ColNames>
+      <Deferrable>1</Deferrable>
+      <RefTableName>AUTH_GROUP</RefTableName>
+      <RefKeyName>SYS_C0019225</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <trigger id="142" parent="69" name="AUTH_USER_GROUPS_TR">
+      <ObjectId>128892</ObjectId>
+      <CreatedTimestamp>2020-05-09.13:25:54</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+      <Condition>new.&quot;ID&quot; IS NULL</Condition>
+    </trigger>
+    <column id="143" parent="70" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="144" parent="70" name="USER_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="145" parent="70" name="PERMISSION_ID">
+      <Position>3</Position>
+      <DataType>NUMBER(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="146" parent="70" name="SYS_C0019249">
+      <ObjectId>128877</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-05-09.13:25:54</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="147" parent="70" name="AUTH_USER_USER_ID_P_14A6B632_U">
+      <ObjectId>128898</ObjectId>
+      <CreatedTimestamp>2020-05-09.13:25:55</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:55</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>USER_ID
+PERMISSION_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="148" parent="70" name="AUTH_USER__USER_ID_A95EAD1B">
+      <ObjectId>128899</ObjectId>
+      <CreatedTimestamp>2020-05-09.13:25:55</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:55</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>USER_ID</ColNames>
+    </index>
+    <index id="149" parent="70" name="AUTH_USER__PERMISSION_1FBB5F2C">
+      <ObjectId>128900</ObjectId>
+      <CreatedTimestamp>2020-05-09.13:25:55</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:55</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>PERMISSION_ID</ColNames>
+    </index>
+    <key id="150" parent="70" name="SYS_C0019249">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0019249</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="151" parent="70" name="AUTH_USER_USER_ID_P_14A6B632_U">
+      <ModifiedTimestamp>2020-05-09.13:25:55</ModifiedTimestamp>
+      <ColNames>USER_ID
+PERMISSION_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>AUTH_USER_USER_ID_P_14A6B632_U</UnderlyingIndexName>
+    </key>
+    <foreign-key id="152" parent="70" name="AUTH_USER_USER_ID_A95EAD1B_F">
+      <ModifiedTimestamp>2020-05-09.13:25:55</ModifiedTimestamp>
+      <ColNames>USER_ID</ColNames>
+      <Deferrable>1</Deferrable>
+      <RefTableName>AUTH_USER</RefTableName>
+      <RefKeyName>SYS_C0019240</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="153" parent="70" name="AUTH_USER_PERMISSIO_1FBB5F2C_F">
+      <ModifiedTimestamp>2020-05-09.13:25:55</ModifiedTimestamp>
+      <ColNames>PERMISSION_ID</ColNames>
+      <Deferrable>1</Deferrable>
+      <RefTableName>AUTH_PERMISSION</RefTableName>
+      <RefKeyName>SYS_C0019223</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <trigger id="154" parent="70" name="AUTH_USER_USER_PERMISSIONS_TR">
+      <ObjectId>128897</ObjectId>
+      <CreatedTimestamp>2020-05-09.13:25:55</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:55</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+      <Condition>new.&quot;ID&quot; IS NULL</Condition>
+    </trigger>
+    <column id="155" parent="71" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="156" parent="71" name="ACTION_TIME">
+      <Position>2</Position>
+      <DataType>TIMESTAMP(6)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="157" parent="71" name="OBJECT_ID">
+      <Position>3</Position>
+      <DataType>NCLOB|0</DataType>
+    </column>
+    <column id="158" parent="71" name="OBJECT_REPR">
+      <Position>4</Position>
+      <DataType>NVARCHAR2(200)|0</DataType>
+    </column>
+    <column id="159" parent="71" name="ACTION_FLAG">
+      <Position>5</Position>
+      <DataType>NUMBER(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="160" parent="71" name="CHANGE_MESSAGE">
+      <Position>6</Position>
+      <DataType>NCLOB|0</DataType>
+    </column>
+    <column id="161" parent="71" name="CONTENT_TYPE_ID">
+      <Position>7</Position>
+      <DataType>NUMBER(11)|0</DataType>
+    </column>
+    <column id="162" parent="71" name="USER_ID">
+      <Position>8</Position>
+      <DataType>NUMBER(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="163" parent="71" name="SYS_C0019266">
+      <ObjectId>128906</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-05-09.13:25:55</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:55</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="164" parent="71" name="DJANGO_ADM_CONTENT_TY_C4BCE8EB">
+      <ObjectId>128909</ObjectId>
+      <CreatedTimestamp>2020-05-09.13:25:55</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:55</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>CONTENT_TYPE_ID</ColNames>
+    </index>
+    <index id="165" parent="71" name="DJANGO_ADM_USER_ID_C564EBA6">
+      <ObjectId>128910</ObjectId>
+      <CreatedTimestamp>2020-05-09.13:25:55</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:55</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>USER_ID</ColNames>
+    </index>
+    <key id="166" parent="71" name="SYS_C0019266">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-05-09.13:25:55</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0019266</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="167" parent="71" name="DJANGO_AD_CONTENT_T_C4BCE8EB_F">
+      <ModifiedTimestamp>2020-05-09.13:25:55</ModifiedTimestamp>
+      <ColNames>CONTENT_TYPE_ID</ColNames>
+      <Deferrable>1</Deferrable>
+      <RefTableName>DJANGO_CONTENT_TYPE</RefTableName>
+      <RefKeyName>SYS_C0019219</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="168" parent="71" name="DJANGO_AD_USER_ID_C564EBA6_F">
+      <ModifiedTimestamp>2020-05-09.13:25:57</ModifiedTimestamp>
+      <ColNames>USER_ID</ColNames>
+      <Deferrable>1</Deferrable>
+      <RefTableName>AUTH_USER</RefTableName>
+      <RefKeyName>SYS_C0019240</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <check id="169" parent="71" name="SYS_C0019265">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-05-09.13:25:55</ModifiedTimestamp>
+      <ColNames>ACTION_FLAG</ColNames>
+      <Predicate>&quot;ACTION_FLAG&quot; &gt;= 0</Predicate>
+    </check>
+    <trigger id="170" parent="71" name="DJANGO_ADMIN_LOG_TR">
+      <ObjectId>128908</ObjectId>
+      <CreatedTimestamp>2020-05-09.13:25:55</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:55</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+      <Condition>new.&quot;ID&quot; IS NULL</Condition>
+    </trigger>
+    <column id="171" parent="72" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="172" parent="72" name="APP_LABEL">
+      <Position>2</Position>
+      <DataType>NVARCHAR2(100)|0</DataType>
+    </column>
+    <column id="173" parent="72" name="MODEL">
+      <Position>3</Position>
+      <DataType>NVARCHAR2(100)|0</DataType>
+    </column>
+    <index id="174" parent="72" name="SYS_C0019219">
+      <ObjectId>128860</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-05-09.13:25:54</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="175" parent="72" name="DJANGO_CO_APP_LABEL_76BD3D3B_U">
+      <ObjectId>128861</ObjectId>
+      <CreatedTimestamp>2020-05-09.13:25:54</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>APP_LABEL
+MODEL</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="176" parent="72" name="SYS_C0019219">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0019219</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="177" parent="72" name="DJANGO_CO_APP_LABEL_76BD3D3B_U">
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <ColNames>APP_LABEL
+MODEL</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>DJANGO_CO_APP_LABEL_76BD3D3B_U</UnderlyingIndexName>
+    </key>
+    <trigger id="178" parent="72" name="DJANGO_CONTENT_TYPE_TR">
+      <ObjectId>128863</ObjectId>
+      <CreatedTimestamp>2020-05-09.13:25:54</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:54</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+      <Condition>new.&quot;ID&quot; IS NULL</Condition>
+    </trigger>
+    <column id="179" parent="73" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="180" parent="73" name="APP">
+      <Position>2</Position>
+      <DataType>NVARCHAR2(255)|0</DataType>
+    </column>
+    <column id="181" parent="73" name="NAME">
+      <Position>3</Position>
+      <DataType>NVARCHAR2(255)|0</DataType>
+    </column>
+    <column id="182" parent="73" name="APPLIED">
+      <Position>4</Position>
+      <DataType>TIMESTAMP(6)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="183" parent="73" name="SYS_C0019217">
+      <ObjectId>128856</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-05-09.13:25:50</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:50</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="184" parent="73" name="SYS_C0019217">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-05-09.13:25:50</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0019217</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <trigger id="185" parent="73" name="DJANGO_MIGRATIONS_TR">
+      <ObjectId>128858</ObjectId>
+      <CreatedTimestamp>2020-05-09.13:25:50</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:50</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+      <Condition>new.&quot;ID&quot; IS NULL</Condition>
+    </trigger>
+    <column id="186" parent="74" name="SESSION_KEY">
+      <Position>1</Position>
+      <DataType>NVARCHAR2(40)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="187" parent="74" name="SESSION_DATA">
+      <Position>2</Position>
+      <DataType>NCLOB|0</DataType>
+    </column>
+    <column id="188" parent="74" name="EXPIRE_DATE">
+      <Position>3</Position>
+      <DataType>TIMESTAMP(6)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="189" parent="74" name="SYS_C0019272">
+      <ObjectId>128914</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-05-09.13:25:57</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:57</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>SESSION_KEY</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="190" parent="74" name="DJANGO_SES_EXPIRE_DAT_A5C62663">
+      <ObjectId>128915</ObjectId>
+      <CreatedTimestamp>2020-05-09.13:25:57</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:57</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>EXPIRE_DATE</ColNames>
+    </index>
+    <key id="191" parent="74" name="SYS_C0019272">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-05-09.13:25:57</ModifiedTimestamp>
+      <ColNames>SESSION_KEY</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0019272</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="192" parent="75" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="193" parent="75" name="TITLE">
+      <Position>2</Position>
+      <DataType>NVARCHAR2(256)|0</DataType>
+    </column>
+    <column id="194" parent="75" name="AUTHOR">
+      <Position>3</Position>
+      <DataType>NVARCHAR2(100)|0</DataType>
+    </column>
+    <column id="195" parent="75" name="PAGES">
+      <Position>4</Position>
+      <DataType>NUMBER(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="196" parent="75" name="PRICE">
+      <Position>5</Position>
+      <DataType>FLOAT(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="197" parent="75" name="SYS_C0019281">
+      <ObjectId>128999</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-05-10.12:39:15</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-10.12:39:15</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="198" parent="75" name="SYS_C0019281">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-05-10.12:39:15</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0019281</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <check id="199" parent="75" name="SYS_C0019280">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-05-10.12:39:15</ModifiedTimestamp>
+      <ColNames>PAGES</ColNames>
+      <Predicate>&quot;PAGES&quot; &gt;= 0</Predicate>
+    </check>
+    <trigger id="200" parent="75" name="TESTAPP_BOOK_TR">
+      <ObjectId>129001</ObjectId>
+      <CreatedTimestamp>2020-05-10.12:39:15</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-10.12:39:15</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+      <Condition>new.&quot;ID&quot; IS NULL</Condition>
+    </trigger>
+    <column id="201" parent="76" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="202" parent="76" name="NAME">
+      <Position>2</Position>
+      <DataType>NVARCHAR2(64)|0</DataType>
+    </column>
+    <column id="203" parent="76" name="EMAIL">
+      <Position>3</Position>
+      <DataType>NVARCHAR2(254)|0</DataType>
+    </column>
+    <column id="204" parent="76" name="ADRESS">
+      <Position>4</Position>
+      <DataType>NVARCHAR2(256)|0</DataType>
+    </column>
+    <index id="205" parent="76" name="SYS_C0019290">
+      <ObjectId>129011</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-05-11.12:22:53</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-11.12:22:53</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="206" parent="76" name="SYS_C0019290">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-05-11.12:22:53</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0019290</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <trigger id="207" parent="76" name="TESTAPP_CONTACTINFO1_TR">
+      <ObjectId>129017</ObjectId>
+      <CreatedTimestamp>2020-05-11.12:22:53</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-11.12:22:53</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+      <Condition>new.&quot;ID&quot; IS NULL</Condition>
+    </trigger>
+    <column id="208" parent="77" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="209" parent="77" name="ENO">
+      <Position>2</Position>
+      <DataType>NUMBER(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="210" parent="77" name="ENAME">
+      <Position>3</Position>
+      <DataType>NVARCHAR2(200)|0</DataType>
+    </column>
+    <column id="211" parent="77" name="ESAL">
+      <Position>4</Position>
+      <DataType>FLOAT(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="212" parent="77" name="EADDR">
+      <Position>5</Position>
+      <DataType>NVARCHAR2(200)|0</DataType>
+    </column>
+    <index id="213" parent="77" name="SYS_C0019276">
+      <ObjectId>128917</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-05-09.13:25:57</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:25:57</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="214" parent="77" name="SYS_C0019276">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-05-09.13:25:57</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0019276</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <trigger id="215" parent="77" name="EMPLOYEE_TR">
+      <ObjectId>128919</ObjectId>
+      <CreatedTimestamp>2020-05-09.13:25:57</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-09.13:31:30</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+      <Condition>new.&quot;ID&quot; IS NULL</Condition>
+    </trigger>
+    <column id="216" parent="78" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="217" parent="78" name="NAME">
+      <Position>2</Position>
+      <DataType>NVARCHAR2(64)|0</DataType>
+    </column>
+    <column id="218" parent="78" name="EMAIL">
+      <Position>3</Position>
+      <DataType>NVARCHAR2(254)|0</DataType>
+    </column>
+    <column id="219" parent="78" name="ADRESS">
+      <Position>4</Position>
+      <DataType>NVARCHAR2(256)|0</DataType>
+    </column>
+    <column id="220" parent="78" name="ROLLNO">
+      <Position>5</Position>
+      <DataType>NUMBER(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="221" parent="78" name="MARKS">
+      <Position>6</Position>
+      <DataType>NUMBER(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="222" parent="78" name="SYS_C0019285">
+      <ObjectId>129003</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-05-11.12:13:18</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-11.12:13:18</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="223" parent="78" name="SYS_C0019285">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-05-11.12:13:18</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0019285</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <trigger id="224" parent="78" name="TESTAPP_STUDENT_TR">
+      <ObjectId>129007</ObjectId>
+      <CreatedTimestamp>2020-05-11.12:13:18</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-11.12:13:18</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+      <Condition>new.&quot;ID&quot; IS NULL</Condition>
+    </trigger>
+    <column id="225" parent="79" name="CONTACTINFO1_PTR_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="226" parent="79" name="ROLLNO">
+      <Position>2</Position>
+      <DataType>NUMBER(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="227" parent="79" name="MARKS">
+      <Position>3</Position>
+      <DataType>NUMBER(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="228" parent="79" name="SYS_C0019294">
+      <ObjectId>129013</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-05-11.12:22:53</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-11.12:22:53</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>CONTACTINFO1_PTR_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="229" parent="79" name="SYS_C0019294">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-05-11.12:22:53</ModifiedTimestamp>
+      <ColNames>CONTACTINFO1_PTR_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0019294</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="230" parent="79" name="TESTAPP_S_CONTACTIN_5A8CDDB2_F">
+      <ModifiedTimestamp>2020-05-11.12:22:53</ModifiedTimestamp>
+      <ColNames>CONTACTINFO1_PTR_ID</ColNames>
+      <Deferrable>1</Deferrable>
+      <RefTableName>TESTAPP_CONTACTINFO1</RefTableName>
+      <RefKeyName>SYS_C0019290</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="231" parent="80" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="232" parent="80" name="NAME">
+      <Position>2</Position>
+      <DataType>NVARCHAR2(64)|0</DataType>
+    </column>
+    <column id="233" parent="80" name="EMAIL">
+      <Position>3</Position>
+      <DataType>NVARCHAR2(254)|0</DataType>
+    </column>
+    <column id="234" parent="80" name="ADRESS">
+      <Position>4</Position>
+      <DataType>NVARCHAR2(256)|0</DataType>
+    </column>
+    <column id="235" parent="80" name="SUBJECT">
+      <Position>5</Position>
+      <DataType>NVARCHAR2(100)|0</DataType>
+    </column>
+    <column id="236" parent="80" name="SALARY">
+      <Position>6</Position>
+      <DataType>FLOAT(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="237" parent="80" name="SYS_C0019288">
+      <ObjectId>129005</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-05-11.12:13:18</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-11.12:13:18</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="238" parent="80" name="SYS_C0019288">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-05-11.12:13:18</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0019288</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <trigger id="239" parent="80" name="TESTAPP_TEACHER_TR">
+      <ObjectId>129009</ObjectId>
+      <CreatedTimestamp>2020-05-11.12:13:18</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-11.12:13:18</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+      <Condition>new.&quot;ID&quot; IS NULL</Condition>
+    </trigger>
+    <column id="240" parent="81" name="CONTACTINFO1_PTR_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="241" parent="81" name="SUBJECT">
+      <Position>2</Position>
+      <DataType>NVARCHAR2(100)|0</DataType>
+    </column>
+    <column id="242" parent="81" name="SALARY">
+      <Position>3</Position>
+      <DataType>FLOAT(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="243" parent="81" name="SYS_C0019297">
+      <ObjectId>129015</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-05-11.12:22:53</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-11.12:22:53</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>CONTACTINFO1_PTR_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="244" parent="81" name="SYS_C0019297">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-05-11.12:22:53</ModifiedTimestamp>
+      <ColNames>CONTACTINFO1_PTR_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0019297</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="245" parent="81" name="TESTAPP_T_CONTACTIN_0782D09D_F">
+      <ModifiedTimestamp>2020-05-11.12:22:53</ModifiedTimestamp>
+      <ColNames>CONTACTINFO1_PTR_ID</ColNames>
+      <Deferrable>1</Deferrable>
+      <RefTableName>TESTAPP_CONTACTINFO1</RefTableName>
+      <RefKeyName>SYS_C0019290</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+  </database-model>
+</dataSource>

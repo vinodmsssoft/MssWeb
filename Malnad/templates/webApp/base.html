@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Master Software Solution Hitech Private Limited</title>
+    <link rel="icon" href="{% static "images/msslogo.png" %}" type="image/icon type">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static "css/bootstrap.min.css" %}">
+    <link rel="stylesheet" href="{% static "css/web.css" %}">
+    <link rel="stylesheet" href="{% static "css/about.css" %}">
+    <link rel="stylesheet" href="{% static "css/services.css" %}">
+    <link rel="stylesheet" href="{% static "css/contact.css" %}">
+
+
+
+
+
+</head>
+<body oncontextmenu="return false">
+{#<script language="JavaScript"> document.addEventListener("contextmenu", function(e){ e.preventDefault(); }, false); </script>#}
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
+<nav class="navbar navbar-fixed-top ">
+  <div class="container-fluid">
+    <!-- Brand and toggnavbar-headerle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <div>
+{#            <img class="navbar-brand" style="height: 60px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKEAAAB5CAMAAABm4rHGAAAA4VBMVEXm5+hfX2JiY2VVVFdRUFNEREZmZ2lbW17s7e5pam0ftJYMsMxYWFpOTVBwcnRKSkzFxscEp6QOsccQscASsbsVsrQWsq8YsqoZs6cbs6Ees5otLS8PqLgMqLIhtI/d3t/T1NUKsNMjtYoSqL0JqK0Ir9gmtYOLjY7I3+qgoaOVlZcGr97B3N8AreIAp8R2xeN7yNLW4+Oe0bwotXuIyOZowOQArOhWt96o0ONZudmYy92t091YuNH58O5rwM8/uNhTtcVku8CQyMuFy8lNtLKAf4OLzMBNvJIAsnA5ODwcGx4OatVJAAAD+klEQVR4nO3ZfVfaSBTA4bxAMsEA2q0vsK0JtgjIYBm0dgVBKJWu/f4faO8kE3LHBep2ddI/7q8eTkguZ54zaSuiZVEURVEURVEURVEURVEURb1c3eupOmKfuz+dZuNshnWv2auhtLo3n7I1vwzET4bZ9SATdm8+mxIObtRmsNvBl91E9tegr4TixpywPxikN5rd9vvtXcTpGAZSoYBXfTIoHIzlEbttt9u3O4hjuJ4KJdCgEBqMYRfZXavVat9uG2STNlxvSaFoyxcZEyar9ccMhJeyu23A5OplNwMaFCYBUQkv7zbd6Awoha30FYaF7fZ4OlOI+Q7gpRD36gXGhK2siTX7kDb7N1Bd+cCt+2zenHBP1Zqw+WYi42sgu8/mWzNTwr28CZu9S5vrQHX2Hbfu8mlTQr6HidZcWYZ4ZA1kb/bMC8Ub3IQt3qctsgHG1Zn3nM3w7FdDQsY1Ircy4lABEHCOJ4eGgFYc8T9wnC0+piV7xIR6JncQzw2tfUPEOIj5W7z0ZE2EXWJcHX8EuQacdjqmhF4Q8bc4uNEHB2A6OPgKOyiP4JBPF3hmyDruhTGhX4v5oUZkQExaflMHcOoJMPSNCWu27UX8EJfsIg6A+PoSgI7TMyYMbD+IBAIcHXL2TQcu4eT66pJdALBmTvgARCcWR7j8RqdAfG057biO82BQWJO7CDf6GHUkrPUu8unyCF2SO2jb8CqTwppnh3Cjj08QRGQ3GnbwWAdWE2BgVFjz/NCJxAlOWEsFxGfhH4nrS6BpYc0LQy8Sjcaa0jix5C7y6So/2Wis2EXJ92tFCCXRjgUg8gRbcLZqojOraaeugOaFQHRt2MVmM/mCh2YDvi2v1JPkYcU6pdAPjAuDtJoTuvB3sYlqiFUlf1aBW1wP/Wze5P/YWY5bksRKHj4GYK/u+vm0se96QZ6dEE8rmzpNgGFQhNDDxHqHicoGIwCjR9cNihGi7Cq86wPi085WlhXVQ220GKEXyvel4vRM/pFf6mHEpNArSOjg0nXF9zPcuQRaUahNmnt/6G1aV5zjRslkcUIbF6p1xfe172rElHDjZFHCnHg1UpORW5DQ8XH5uuL8Svb3KDvxRGjuJylbE6J1E2IOtKLStsmihJbQgAUKQ1wJryvOEdCKqtsnX1Xou9vX1T4vLlCIq27/rCOq65MkXAvDZwvLRQmrJVR9l7CkTRoTur8oLBsU4sq7hPqkMWHp2cLHooR13E6hPknCXFj+NeGjsc+xS2XcjnWjx+dOvrCw/L+EUfSbC6NeL35t4f6fWj8etgt/6JOJ8KIXv/bNjvb14u2jmybjHfMvFdP7r5OmfrtHURRFURRFURRFURRFUb93/wDHUt6PaeOzywAAAABJRU5ErkJggg==">#}
+             <img class="navbar-brand brandimg" style="height: 60px" src="{% static "images/msslogo.png" %}">
+            <a class="navbar-brand brand" href="/"> MSSHPL </a>
+        </div>
+
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="/">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="/about">About</a></li>
+          <li><a href="/services">Product</a></li>
+          <li><a href="/contact">Contact</a></li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">SignUp</a></li>
+          <li><a href="#">Login</a></li>
+          <li><a href="#">Logout</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div id="mySidenav" class="sidenav">
+  <a href="{% static "pdf/msshpl.pdf" %}" id="projects" target="_blank">Profile</a>
+</div>
+
+{% block base_block %}
+
+
+
+{% endblock %}
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+crossorigin="anonymous"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+crossorigin="anonymous"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<script src="{% static "js/fading.js" %}"></script>
+
+<script src="{% static "js/scroll.js" %}"></script>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+<footer class="footer">
+
+
+
+   <div class="container">
+
+        <div class="row">
+            <div  class="col-lg-3 col-md-3 col-sm-6 col-xs-12 botm1">
+                 <h4> About Us </h4>
+                 <h5> <a href="{% static "pdf/msshpl.pdf" %}" target="_blank"> Company Profile </a>  </h5>
+                 <h5> <a href="/about"> MSSHPL </a>  </h5>
+            </div>
+
+            <div  class="col-lg-3 col-md-3 col-sm-6 col-xs-12 botm1">
+                 <h4> Product </h4>
+                 <h5> <a href="test.html" target="_blank"> Foundry Application </a>  </h5>                                               <h5> <a href="test.html" target="_blank"> Valve Application </a>  </h5>
+                 <h5> <a href="test.html" target="_blank"> Machine Shop Application </a>  </h5>
+                 <h5> <a href="test.html" target="_blank"> Finance Application </a>  </h5>
+            </div>
+
+            <div  class="col-lg-3 col-md-3 col-sm-6 col-xs-12 botm1">
+                 <h4> Contact </h4>
+                 <h5> <a href="/contact" > Contact Us </a>  </h5>
+
+            </div>
+
+            <div  class="col-lg-3 col-md-3 col-sm-6 col-xs-12 botm1">
+
+                  <div class="fcont">
+                     <h4> How to Reach Us </h4>
+                     <h3> Master Software Solution Hitech Private Limited </h3> <br>
+                     <h2> No.54, Bharathi Street </h2>
+                     <h2> BR. Puram, Hope-Colleg</h2>
+                     <h2> opposite to GRG School </h2>
+                     <h2> Peelamedu </h2>
+                     <h2> Coimbatore - 641004 </h2>
+                     <h2> Phone : <span> +919360355643, +919360099005 </span> </h2>
+                     <h2> Email : <span> mss_soft@rediffmail.com </span> </h2>
+             </div>
+            </div>
+
+            </div>
+     </div>
+<div class="copy">
+    <h5> @ Copyright - Master Software Solution Hitech Private Limited. | Developer By <span>Master Software Solution Hitech Private Limited. </span> </h5>
+</div>
+
+
+
+</footer>
+
+</html>

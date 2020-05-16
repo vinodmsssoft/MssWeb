@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static "css/split.css" %}">
+    <script type="text/javascript" src="{% static "css/jquery.js" %}"> </script>
+</head>
+<body>
+
+<div class="header">
+  Fixed header
+</div>
+<div class="wrapper">
+    <div class="inner-wrapper">
+        <div class="left pane">Left</div>
+        <div class="center pane">
+            <div class="inner">
+                <div class="top">Center top</div>
+                <div class="bottom">Center bottom</div>
+            </div>
+        </div>
+        <div class="right pane">Right</div>
+    </div>
+</div>
+
+<script type="text/javascript" src="{% static "js/split.js" %}"> </script>
+</body>
+</html>

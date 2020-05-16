@@ -1,0 +1,36 @@
+.habout{
+    padding-top: 50px;
+
+}
+
+
+.about {
+    margin-top: 80px;
+}
+
+
+.habout h1 {
+    background: aliceblue;
+    font-size: 30px;
+    height: 60px;
+    padding-left: 10px;
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.about p {
+    font-size: medium;
+    font-weight: 600;
+    color: black;
+    padding-bottom: 50px;
+}
+
+.about span {
+    color: darkgreen;
+}
+
+.about .erp {
+    color: blue;
+}

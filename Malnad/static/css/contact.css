@@ -1,0 +1,26 @@
+.con1 {
+    background:whitesmoke;
+    margin-bottom: 10px;
+}
+
+.hcont h1{
+    color: red;
+    padding-bottom: 5px;
+}
+
+
+.hcont h3{
+     font-size: 15px;
+     font-weight: bold;
+    color: green;
+}
+
+.hcont h4{
+     font-size: smaller;
+}
+
+.hcont span {
+    color: blue;
+    font-size: smaller;
+}
+

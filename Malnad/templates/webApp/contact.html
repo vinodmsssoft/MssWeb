@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+{% extends 'webApp/base.html' %}
+{% load staticfiles %}
+{% block base_block %}
+
+     <div class="container">
+    <div class="row">
+        <div  class="col-lg-6 col-md-2 col-sm-6 col-xs-12 con1">
+                <div class="form-group"></div>
+            <form method="post">
+                {{ form.as_p }}
+                {% csrf_token %}
+                <input type="submit" class="btn btn-primary" value="Submit">
+            </form>
+                </div>
+
+
+
+        <div class="col-lg-6 col-md-2 col-sm-6 col-xs-12 con2" >
+
+             <div class="hcont">
+                <h1> Contact Us </h1>
+                 <h3> Master Software Solution Hitech Private Limited </h3> <br>
+                 <h4> No.54, Bharathi Street </h4>
+                 <h4> BR. Puram, Hope-Colleg</h4>
+                 <h4> opposite to GRG School </h4>
+                 <h4> Peelamedu </h4>
+                 <h4> Coimbatore - 641004 </h4>
+                 <h4> Phone : <span> +919360355643, +919360099005 </span> </h4>
+                 <h4> Email : <span> mss_soft@rediffmail.com </span> </h4>
+             </div>
+
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5783.554521208613!2d77.01741670178936!3d11.02319862001247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba857866b172785%3A0x297ae9fea8116618!2sMaster%20Software%20Solution%20Hitech%20Private%20Limited!5e0!3m2!1sen!2sin!4v1589430025764!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+        </div>
+
+
+
+
+
+        </div>
+
+        </div>
+
+
+
+    </div>
+
+{% endblock %}
